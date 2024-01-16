@@ -10,7 +10,7 @@ finish-args:
     - --share=ipc 
     - --socket=x11
     - --device=dri
-    # We want user fs access so we can read and write folders with jpeg photo files
+    # User fs access to read and write folders with jpeg photo files
     - --filesystem=xdg-pictures
     - --filesystem=xdg-download
          
@@ -30,6 +30,6 @@ modules:
       - install -Dm00644 $FLATPAK_ID.metainfo.xml $FLATPAK_DEST/share/metainfo/$FLATPAK_ID.metainfo.xml
     sources:
       - type: archive
-        url: "https://github.com/vinser/pixyne/archive/refs/tags/v1.4.0.tar.gz"
-        sha256: d34a47014726cb4f4f159ba679702cefcc7f01fc42a7eb4a9868071a638b498b
+        url: "https://github.com/vinser/pixyne/archive/refs/tags/v1.5.0.tar.gz"
+        sha256: db3ca82047199612c0e5f67456cae837e58d8ef376d2e20109e2e212ea5dc1ff
 
