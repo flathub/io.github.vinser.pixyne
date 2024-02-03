@@ -30,6 +30,6 @@ modules:
       - install -Dm00644 $FLATPAK_ID.metainfo.xml $FLATPAK_DEST/share/metainfo/$FLATPAK_ID.metainfo.xml
     sources:
       - type: archive
-        url: "https://github.com/vinser/pixyne/archive/refs/tags/v1.5.0.tar.gz"
-        sha256: db3ca82047199612c0e5f67456cae837e58d8ef376d2e20109e2e212ea5dc1ff
+        url: "https://github.com/vinser/pixyne/archive/refs/tags/v1.6.0.tar.gz"
+        sha256: 3faee7106231834cda98c36293d8720b798e642fcc01b1b257ad6bb9c17cc5dc
 
